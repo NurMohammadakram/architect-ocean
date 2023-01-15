@@ -116,19 +116,19 @@ ul li:hover a {
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
             team section css styles below 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-.team {
+.team-section {
     display: flex;
     justify-content: space-around;
     gap: 73px;
     margin: var(--common-margin);
     margin-top: 85px;
 }
-.team .gallery {
+.team-section .gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
 }
-.team .info {
+.team-section .info {
     width: 100%;
     max-width: 537px;
     display: flex;
@@ -160,16 +160,15 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
                         Features section styles
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-.features {
+.features-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 145px;
     margin: var(--common-margin);
     margin-top: 130px;
-    margin-bottom: 130px;
 }
 
-.features img {
+.features-section img {
     width: 100%;
     height: 100%;
     max-width: 708px;
@@ -206,9 +205,9 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 }
 .btn-move {
     display: inline-block;
-    position: relative;
+    position: absolute;
     left: 650px;
-    top: -282px;
+    top: 2970px;
     text-align: center;
     padding: 30px;
 }
@@ -223,5 +222,61 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 }
 
 /* #######################################################################
-
+                    facts section styles start here
 ########################################################################## */
+.facts-section {
+    margin: var(--common-margin);
+    margin-top: 130px;
+}
+.fact_heading {
+    margin-bottom: 100px;
+    max-width: 568px;
+}
+.fact_heading_title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 24px;
+}
+.fact_heading_description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--secondary-color);
+}
+
+.fact_info {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 124px;
+    margin: 0 50px;
+}
+
+.fact_info_cart {
+    text-align: center;
+    padding: 45px 40px 60px;
+    border: 1px solid var(--teriary-color);
+}
+.fact_info_cart:hover {
+    background-color: var(--teriary-color);
+    color: var(--color-white);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
+}
+.fact_info_cart:hover .fact_info_cart_title, .fact_info_cart_description{
+    color: var(--color-white);
+}
+.fact_info_cart img {
+    width: 100%;
+    max-width: 45px;
+}
+.fact_info_cart_title {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+}
+.fact_info_cart_description {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--secondary-color);
+}

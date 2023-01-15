@@ -27,12 +27,12 @@
         line-height: 53px;
     }
 
-    .team {
+    .team-section {
         flex-direction: column-reverse;
         margin-top: 30px;
         align-items: center;
     }
-    .team .gallery {
+    .team-section .gallery {
         grid-template-columns: 1fr;
         align-items: center;
     }
@@ -45,20 +45,21 @@
         line-height: 48px;
         margin-bottom: 18px;
     }
-    info .description {
+    .info .description {
         line-height: 22px;
         margin-bottom: 20px;
     }
-    .features {
+    .features-section {
         grid-template-columns: 1fr;
         gap: 45px;
         margin-top: 85px;
         margin-bottom: 20px;
     }
-    .features img {
+    .features-section img {
         height: 90%;
     }
     .btn-move {
+        position: relative;
         left: 0;
         top: 0;
         margin: var(--common-margin);
