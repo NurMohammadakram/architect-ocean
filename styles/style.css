@@ -262,6 +262,7 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
     background-color: var(--teriary-color);
     color: var(--color-white);
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
+    transition: background-color 0.5s;
 }
 .fact_info_cart:hover .fact_info_cart_title, .fact_info_cart_description{
     color: var(--color-white);
@@ -269,6 +270,10 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 .fact_info_cart img {
     width: 100%;
     max-width: 45px;
+}
+.fact_info_cart:hover img {
+    transform: scale(1.3) rotate(30deg);
+    transition: transform 0.8s;
 }
 .fact_info_cart_title {
     font-weight: 600;

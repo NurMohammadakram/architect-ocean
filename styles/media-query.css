@@ -89,13 +89,17 @@
         gap: 30px;
         margin: 0;
     }
+    .fact_info_cart_title {
+        font-size: 28px;
+        line-height: 52px;
+    }
     .sponsors-section {
         margin-top: 85px;
     }
     .sponsors {
         flex-direction: column;
         align-items: center;
-        gap: 30px;
+        gap: 40px;
     }
     .sponsors img {
         height: 100%;
