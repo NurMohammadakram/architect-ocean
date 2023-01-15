@@ -27,4 +27,29 @@
         font-size: 42px;
         line-height: 53px;
     }
+
+    .team {
+        flex-direction: column-reverse;
+        margin-top: 30px;
+        align-items: center;
+    }
+    .team .gallery {
+        grid-template-columns: 1fr;
+        align-items: center;
+
+    }
+    .gallery img {
+        max-width: 242px;
+        max-height: 242px;
+    }
+    .info .info-title { 
+        font-size: 36px;
+        line-height: 48px;
+        margin-bottom: 18px;
+    }
+    info .description {
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+    
 }
