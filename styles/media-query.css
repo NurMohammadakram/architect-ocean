@@ -22,9 +22,10 @@
         display: none;
     }
 
-    .home-info .title {
+    .home-info .title, .info .info-title, .feature-info .feature-title, .fact_heading_title, .sponsor_heading_title {
         font-size: 42px;
         line-height: 53px;
+        font-weight: 700;
     }
 
     .team-section {
@@ -41,8 +42,6 @@
         max-height: 242px;
     }
     .info .info-title { 
-        font-size: 36px;
-        line-height: 48px;
         margin-bottom: 18px;
     }
     .info .description {
@@ -52,7 +51,7 @@
     .features-section {
         grid-template-columns: 1fr;
         gap: 45px;
-        margin-top: 85px;
+        margin-top: 65px;
         margin-bottom: 20px;
     }
     .features-section img {
@@ -69,6 +68,10 @@
     #year {
         font-size: 42px;
         line-height: 50px;
+    }
+
+    .facts-section {
+        margin-top: 85px;
     }
     
 }
