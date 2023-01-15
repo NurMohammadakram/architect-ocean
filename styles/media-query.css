@@ -115,3 +115,26 @@
     }
     
 }
+
+
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+                    Css medium device media query
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    .features-section {
+        gap: 20px;
+    }
+    .btn-move {
+        left: 400px;
+        top: 2610px;
+    }
+    .fact_info {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .sponsors {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
