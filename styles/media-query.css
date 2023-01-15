@@ -1,0 +1,30 @@
+/* ######################################################################
+                        media query css styles below
+                I made this separate to keep my code cleen
+######################################################################### */
+
+@media only screen and (max-width: 576px) {
+    .nav .logo {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .nav .collapse {
+        display: none;
+    }
+    .nav .menu {
+        display: block;
+    }
+    .nav:hover .collapse{
+        display: block;
+    }
+    .nav:hover .menu{
+        display: none;
+    }
+
+    .home-info .title {
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 53px;
+    }
+}
