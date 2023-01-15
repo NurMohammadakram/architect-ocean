@@ -17,6 +17,7 @@
     margin: 0;
     padding: 0;
     font-family: var(--font-primary);
+    color: var(--primary-color);
 }
 .container {
     width: 100%;
@@ -108,6 +109,7 @@ ul li:hover a {
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 32px;
+    color: var(--secondary-color);
 }
 
 /* main section */
@@ -150,6 +152,7 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+    color: var(--secondary-color);
     margin-bottom: 32px;
 }
 
@@ -157,3 +160,68 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
                         Features section styles
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+.features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 145px;
+    margin: var(--common-margin);
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.features img {
+    width: 100%;
+    height: 100%;
+    max-width: 708px;
+    height: 982px;
+}
+.feature-info {
+    margin-bottom: 30px;
+}
+.feature-info .feature-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 24px;
+    padding-left: 21px;
+    border-left: 5px solid var(--teriary-color);
+} 
+.feature-info .feature-description, .feature_cart .feature_cart_description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--secondary-color);
+}
+.feature_cart {
+    padding: 30px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+
+}
+.feature_cart .feature_cart_title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 10px;
+}
+.btn-move {
+    display: inline-block;
+    position: relative;
+    left: 650px;
+    top: -282px;
+    text-align: center;
+    padding: 30px;
+}
+#year {
+    color: var(--color-white);
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px;
+}
+#experience {
+    color: var(--color-white);
+}
+
+/* #######################################################################
+
+########################################################################## */

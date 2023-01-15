@@ -23,7 +23,6 @@
     }
 
     .home-info .title {
-        font-weight: 700;
         font-size: 42px;
         line-height: 53px;
     }
@@ -36,7 +35,6 @@
     .team .gallery {
         grid-template-columns: 1fr;
         align-items: center;
-
     }
     .gallery img {
         max-width: 242px;
@@ -50,6 +48,26 @@
     info .description {
         line-height: 22px;
         margin-bottom: 20px;
+    }
+    .features {
+        grid-template-columns: 1fr;
+        gap: 45px;
+        margin-top: 85px;
+        margin-bottom: 20px;
+    }
+    .features img {
+        height: 90%;
+    }
+    .btn-move {
+        left: 0;
+        top: 0;
+        margin: var(--common-margin);
+        display: block;
+        padding: 20px;
+    }
+    #year {
+        font-size: 42px;
+        line-height: 50px;
     }
     
 }
