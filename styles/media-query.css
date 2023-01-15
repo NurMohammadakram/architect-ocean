@@ -9,17 +9,14 @@
         font-size: 24px;
         line-height: 32px;
     }
-    .nav .collapse {
+    .nav .collapse, .nav:hover .menu {
         display: none;
     }
-    .nav .menu {
+    .nav .menu, .nav:hover .collapse {
         display: block;
     }
-    .nav:hover .collapse{
-        display: block;
-    }
-    .nav:hover .menu{
-        display: none;
+    .nav:hover .collapse li {
+        margin-bottom: 10px;
     }
     .home-info .title {
         font-size: 42px;
