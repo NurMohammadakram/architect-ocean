@@ -345,11 +345,14 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
     justify-content: space-around;
     width: 100%;
     max-width: 800px;
-    padding: 40px 30px;
+    padding: 40px 0;
     margin: 0 auto;
     background-color: var(--teriary-color);
     border: none;
     border-radius: 5px;
+}
+.address-sect {
+    padding: 0 20px;
 }
 .address {
     display: flex;
@@ -371,6 +374,7 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 .form {
     display: flex;
     flex-direction: column;
+    padding: 0 20px;
 }
 
 .form input, textarea {

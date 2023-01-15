@@ -109,5 +109,12 @@
     .contact-section {
         margin-top: 85px;
     }
+    .form-section {
+        flex-direction: column-reverse;
+        gap: 45px;
+    }
+    .form-section #contact {
+        margin-bottom: 25px;
+    }
     
 }
